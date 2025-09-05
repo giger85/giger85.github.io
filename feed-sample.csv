@@ -1,0 +1,4 @@
+id,title,description,link,image_link,availability,price,brand,gtin,condition
+SKU12345,Men's Running Shoes,Lightweight running shoes for daily training,https://www.example.com/product/sku12345,https://www.example.com/images/sku12345.jpg,in_stock,79.99 USD,Nike,0012345678905,new
+SKU67890,Women's Jacket,Waterproof jacket for outdoor activities,https://www.example.com/product/sku67890,https://www.example.com/images/sku67890.jpg,preorder,129.99 USD,The North Face,0098765432109,new
+SKU54321,Wireless Headphones,Bluetooth over-ear headphones with noise cancellation,https://www.example.com/product/sku54321,https://www.example.com/images/sku54321.jpg,in_stock,199.00 USD,Sony,0043210987654,new
