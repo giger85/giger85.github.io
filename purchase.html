@@ -9,16 +9,21 @@
 
       gtag('config', 'AW-691680867');
     </script>
-    <!-- UET tag (bing ads) -->
-    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"295014750", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
-    <script>
-    // Add this script right after your base UET tag code
-      window.uetq = window.uetq || [];
-      window.uetq.push('set', { 'pid': { 
-        'em': 'giger85@outlook.com',
-        'ph': '+821012345678',
-      } });
+    <!-- Criteo Loader File -->
+    <script type="text/javascript" src="//dynamic.criteo.com/js/ld/ld.js?a=122483" async="true"></script>
+    <!-- END Criteo Loader File -->
+    <!-- Criteo Product Tag -->
+    <script type="text/javascript">
+      window.criteo_q = window.criteo_q || [];
+      var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
+      window.criteo_q.push(
+        { event: "setAccount", account: 122483 },
+        { event: "setEmail", email: "giger85@naver.com", hash_method: "none" },
+        { event: "setSiteType", type: deviceType},
+        { event: "viewItem", item: "sku22223" }
+      );
     </script>
+    <!-- END Criteo Product Tag -->
   </head>
   <body>
     <p>Purchase page</p>
